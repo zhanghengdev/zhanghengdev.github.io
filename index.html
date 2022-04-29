@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <title>Home page</title>
+      <link rel="icon" href="img/index.jpg">
+      <link rel="stylesheet" href="files/style.css">
+   </head>
+   <body>
+      <div id="navigation">
+         <div id="profile">
+            <a href="img/heng5.jpg"><img src="img/heng2.jpg"></a>
+         </div>
+         <div id="contact">
+            <h1>Heng Zhang <img style="cursor: pointer;" onclick="PlaySound('heng')" src="img/speaker.png" width="25"/></h1>
+            <h2 id="title" class="italic">PhD student</h2>
+            <p>heng.zhang -AT- inria.fr</p>
+            <p>Paris, France</p>
+            <p class="link">
+               <a href="https://github.com/zhanghengdev/"><img id="github" src="img/github.png" class="external"></a>
+               <a href="https://scholar.google.com/citations?user=MbusOqcAAAAJ&hl=en"><img id="scholar" src="img/scholar.png" class="external"></a>
+               <a href="https://www.linkedin.com/in/heng-zhang-628177112/"><img id="linkedin" src="img/linkedin.png" class="external"></a>
+               <a href="https://www.youtube.com/channel/UCfpG_buvXcF4YRn4AvrTEcQ?view_as=subscriber"><img id="youtube" src="img/youtube.png" class="external"></a>
+               <a href="files/CV_en.pdf"><img id="cv" src="img/cv.png" class="external"></a>
+               <a href="index_cn.html"><img id="en-cn" src="img/cn.png" class="external"></a>
+            </p>
+         </div>
+         <br/>
+         <div id="clustrmaps" style="width:50px;text-align:center;">
+            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=QinFo80fIObgSFAVjyy2pkFsGu5XfJ87-HTNnMnQLzc"></script>
+         </div>
+      </div>
+      <div id="content">
+         <div id="intro">
+            <h2 id="first">About Me</h2>
+            I am a final year PhD student in <a href="https://www.irisa.fr/en">IRISA/INRIA Rennes laboratory</a> and <a href="https://international.univ-rennes1.fr/en">University of Rennes 1</a>. I am working under the supervision of Prof. <a href="http://people.irisa.fr/Elisa.Fromont/">Elisa FROMONT</a> and Prof. <a href="http://people.irisa.fr/Sebastien.Lefevre/">Sébastien LEFEVRE</a>. In the same time, I work as a Deep learning R&D Engineer at <a href="https://www.atermes.fr/en/index">ATERMES</a> in Paris. My current research interest is deep learning for <b>object detection</b>, <b>multi-sensor fusion</b>, <b>active learning</b> and <b>knowledge distillation</b>.
+            <p style="text-align:right;">
+               <a href="https://www.irisa.fr/en"><img src="img/irisa.png" height="50"/></a>
+               <a href="https://www.inria.fr/en"><img src="img/inria.png" height="50"/></a>
+               <a href="https://international.univ-rennes1.fr/"><img src="img/univ-rennes1.png" height="50"/></a>
+               <a href="https://www.atermes.fr/en/index"><img src="img/atermes.png" height="50"/></a>
+            </p>
+         </div>
+         <div id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+               <li>
+                  <p><span class="strong">Deep Learning R&D Engineer</span></p>
+                  <p>ATERMES | Paris, France | Dec. 2018 - ?? </p>
+                  <div class="additional-text">
+                     <p>&#9646 Built Deep Learning models for accurate object detection (car, pedestrian, etc) at long distance (>1.5km).</p>
+                     <p>&#9646 Adaptively fusing information from multiple sensors (e.g., thermal camera & visible camera) to improve the detection precision.</p>
+                     <p>&#9646 Accelerate CNN model's inference speed for efficient DL integration under embedded constraints.</p>
+                  </div>
+               </li>
+               <li>
+                  <p><span class="strong">Training contract (one year)</span></p>
+                  <p>Hubert Curien laboratory | Saint-Etienne, France | Sep. 2017 - Oct. 2018</p>
+                  <div class="additional-text">
+                     <p>&#9646 Implement different deep learning models (Faster RCNN, SSD, YOLO, RetinaNet) for face/person detection in public transport.</p>
+                     <p>&#9646 Proposed efficient video object detection methods for video surveillance applications.</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div id="education">
+            <h2>Education</h2>
+            <ul>
+               <li>
+                  <p><span class="strong">Ph.D. student in Deep Learning and Computer Vision</span></p>
+                  <p>University of Rennes 1 | Rennes, France | Dec. 2018 - ?? </p>
+                  <div class="additional-text">
+                     <p>&#9646 Subject: Multispectral object detection.</p>
+                     <p>&#9646 Industrial research training program, in cooperation with ATERMES company.</p>
+                  </div>
+               </li>
+               <li>
+                  <p><span class="strong">Engineer's degree (equivalent to a master's degree)</span></p>
+                  <p>Télécom Saint-Etienne | Saint-Etienne, France | Sep. 2015 - Oct. 2018</p>
+                  <div class="additional-text">
+                     <p>&#9646 Major: Computer Science and Computer Vision</p>
+                     <p>&#9646 One-year professional training contract with Hubert Curien laboratory.</p>
+                  </div>
+               </li>
+               <li>
+                  <p><span class="strong">Bachelor's degree</span></p>
+                  <p>Xidian University | Xi'an, China | Sep. 2012 - Jun. 2016</p>
+                  <div class="additional-text">
+                     <p>&#9646 Major: Electronic Engineering</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div id="publication">
+            <h2>Publications</h2>
+            <ul>
+               <li>
+                  <p><span class="strong">"Low-cost Multispectral Scene Analysis with Modality Distillation", in <i>WACV 2022</i></span></p>
+                  <p><b>Heng Zhang</b>, Elisa FROMONT, Sébastien LEFEVRE, Bruno AVIGNON</p>
+                  <div class="additional-text">
+                     <p>&#9646 <i>Keywords: Multispectral Scene Analysis, Thermal Sensor, Knwoledge Distillation</i></p>
+                  </div>
+                  <a href="https://openaccess.thecvf.com/content/WACV2022/html/Zhang_Low-Cost_Multispectral_Scene_Analysis_With_Modality_Distillation_WACV_2022_paper.html">[PDF]</a>
+                  <a href="https://video.vast.uccs.edu/WACV22/WACV/313-wacv-poster.pdf">[Poster]</a>
+               </li>
+               <li>
+                  <p><span class="strong">"PDF-Distil: Including Prediction Disagreements in Feature-based Knowledge Distillation for Object Detection", in <i>BMVC 2021</i></span></p>
+                  <p><b>Heng Zhang</b>, Elisa FROMONT, Sébastien LEFEVRE, Bruno AVIGNON</p>
+                  <div class="additional-text">
+                     <p>&#9646 <i>Keywords: Object Detection, Knwoledge Distillation, Model Compression</i></p>
+                  </div>
+                  <a href="https://www.bmvc2021-virtualconference.com/assets/papers/0259.pdf">[PDF]</a>
+                  <a href="https://github.com/zhanghengdev/MutualGuide">[Code]</a>
+                  <a href="https://docs.google.com/presentation/d/1a6YoMp3BNseCq_Mf1bbvbf2FGJed6uc9wZGVnxKiar4/edit?usp=sharing">[Slides]</a>
+                  <a href="https://github.com/zhanghengdev/MutualGuide"><img alt="GitHub stars" style="vertical-align:middle" src="https://img.shields.io/github/stars/zhanghengdev/MutualGuide?style=social"/></a>
+               </li>
+               <li>
+                  <p><span class="strong">"Deep Active Learning from Multispectral Data Through Cross-Modality Prediction Inconsistency", in <i>ICIP 2021</i></span></p>
+                  <p><b>Heng Zhang</b>, Elisa FROMONT, Sébastien LEFEVRE, Bruno AVIGNON</p>
+                  <div class="additional-text">
+                     <p>&#9646 <i>Keywords: Multispectral Scene Analysis, Active Learning</i></p>
+                  </div>
+                  <a href="https://ieeexplore.ieee.org/document/9506322">[PDF]</a>
+                  <a href="https://youtu.be/ZuNIyG51Hms">[Video]</a>
+               </li>
+               <li>
+                  <p><span class="strong">"Guided Attentive Feature Fusion for Multispectral Pedestrian Detection", in <i>WACV 2021</i></span></p>
+                  <p><b>Heng Zhang</b>, Elisa FROMONT, Sébastien LEFEVRE, Bruno AVIGNON</p>
+                  <div class="additional-text">
+                     <p>&#9646 <i>Keywords: Multispectral Object Detection, Attentive Fusion, Multi-sensor Fusion</i></p>
+                  </div>
+                  <a href="https://openaccess.thecvf.com/content/WACV2021/papers/Zhang_Guided_Attentive_Feature_Fusion_for_Multispectral_Pedestrian_Detection_WACV_2021_paper.pdf">[PDF]</a>
+                  <a href="https://github.com/zhanghengdev/GAFF">[Results]</a>
+                  <a href="https://youtu.be/PoQ9guJL8eU">[Video]</a>
+                  <a href="https://youtu.be/skseGjveeQQ">[Demo]</a>
+                  <a href="https://github.com/zhanghengdev/GAFF"><img alt="GitHub stars" style="vertical-align:middle" src="https://img.shields.io/github/stars/zhanghengdev/GAFF?style=social"/></a>
+               </li>
+               <li>
+                  <p><span class="strong">"Localize to Classify and Classify to Localize: Mutual Guidance in Object Detection", in <i>ACCV 2020</i></span></p>
+                  <p><b>Heng Zhang</b>, Elisa FROMONT, Sébastien LEFEVRE, Bruno AVIGNON</p>
+                  <div class="additional-text">
+                     <p>&#9646 <i>Keywords: Object Detection, Label Assignment, Anchor Matching</i></p>
+                  </div>
+                  <a href="https://openaccess.thecvf.com/content/ACCV2020/papers/Zhang_Localize_to_Classify_and_Classify_to_Localize_Mutual_Guidance_in_ACCV_2020_paper.pdf">[PDF]</a>
+                  <a href="https://github.com/zhanghengdev/MutualGuide">[Code]</a>
+                  <a href="https://youtu.be/8gnpOJVDtS0">[Video]</a>
+                  <a href="https://youtu.be/5CYOSIFLakM">[Demo1]</a>
+                  <a href="https://youtu.be/LEW_w8UQzRU">[Demo2]</a>
+                  <a href="https://github.com/zhanghengdev/MutualGuide"><img alt="GitHub stars" style="vertical-align:middle" src="https://img.shields.io/github/stars/zhanghengdev/MutualGuide?style=social"/></a>
+               </li>
+               <li>
+                  <p><span class="strong">"Multispectral Fusion for object detection with Cyclic Fuse-and-Refine blocks", in <i>ICIP 2020</i></span></p>
+                  <p><b>Heng Zhang</b>, Elisa FROMONT, Sébastien LEFEVRE, Bruno AVIGNON</p>
+                  <div class="additional-text">
+                     <p>&#9646 <i>Keywords: Multispectral Object Detection, Cyclic Fusion, Multi-sensor Fusion</i></p>
+                  </div>
+                  <a href="https://ieeexplore.ieee.org/document/9191080">[PDF]</a>
+                  <a href="https://github.com/zhanghengdev/CFR">[Results]</a>
+                  <a href="https://youtu.be/aIDq0E-_5pc">[Video]</a>
+                  <a href="https://youtu.be/YBwkmcCwAL8">[Demo]</a>
+                  <a href="https://github.com/zhanghengdev/CFR"><img alt="GitHub stars" style="vertical-align:middle" src="https://img.shields.io/github/stars/zhanghengdev/CFR?style=social"/></a>
+               </li>
+               <li>
+                  <p><span class="strong">"Méthodes de Fusion pour la Détection Multispectrale par Réseaux de Neurones Profonds", in <i>RFIAP 2020</i></span></p>
+                  <p><b>Heng Zhang</b>, Elisa FROMONT, Sébastien LEFEVRE, Bruno AVIGNON</p>
+                  <div class="additional-text">
+                     <p>&#9646 <i>Keywords: Multispectral Object Detection, Multi-sensor Fusion</i></p>
+                  </div>
+                  <a href="https://hal.archives-ouvertes.fr/hal-02872123">[PDF]</a>
+                  <a href="https://youtu.be/xg38Xw94dr8">[Video]</a>
+               </li>
+               <li>
+                  <p><span class="strong">"Improving video object detection by Seq-Bbox Matching", in <i>VISAPP 2018</i></span></p>
+                  <p>Hatem Belhassen, <b>Heng Zhang</b>, Virginie Fresse, El-Bay Bourennane</p>
+                  <div class="additional-text">
+                     <p>&#9646 <i>Keywords: Video Object Detection, Bounding Box Association</i></p>
+                  </div>
+                  <a href="https://www.scitepress.org/Papers/2019/72600/72600.pdf">[PDF]</a>
+                  <a href="https://youtu.be/hLsTfJ8t3b0">[Demo]</a>
+                  <a href="https://github.com/zhanghengdev/awesome-video-object-detection"><img alt="GitHub stars" style="vertical-align:middle" src="https://img.shields.io/github/stars/zhanghengdev/awesome-video-object-detection?style=social"/></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <script>
+         function PlaySound(melody) {
+         var path = "./files/"
+         var snd = new Audio(path + melody + ".mp3");
+         snd.play();
+         }
+      </script>
+   </body>
+</html>
